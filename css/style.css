@@ -1,0 +1,44 @@
+.container {
+    margin: auto;
+    background-color: rgb(139, 121, 112);
+    width: 600px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.form-group {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-top: 5px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+label {
+    font-weight: 600;
+}
+
+body {
+    background-color: rgb(73, 53, 44);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+.btn {
+    background-color: rgb(73, 53, 44);
+    width: 80px;
+    text-align: center;
+    height: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
